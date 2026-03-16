@@ -2,3 +2,9 @@ eureka:
   client:
     service-url:
       defaultZone: ${EUREKA_URL:http://discovery-server:8761/eureka}
+
+#this is for AWS
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://discovery-server.micro.local:8761/eureka

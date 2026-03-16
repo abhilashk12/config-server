@@ -10,8 +10,13 @@ spring:
       server:
         git:
           uri: https://github.com/abhilashk12/ecommerce-config-repo.git
+#this is for AWS
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: ${EUREKA_URL}
 
 eureka:
   client:
     service-url:
-      defaultZone: ${EUREKA_URL}
+      defaultZone: http://localhost:8761/eureka
